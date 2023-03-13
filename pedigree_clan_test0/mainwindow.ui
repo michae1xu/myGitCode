@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1887</width>
-    <height>1067</height>
+    <height>1120</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -26,52 +26,6 @@
      <height>962</height>
     </size>
    </property>
-   <widget class="QStackedWidget" name="stackedWidget">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>0</y>
-      <width>1314</width>
-      <height>724</height>
-     </rect>
-    </property>
-    <property name="currentIndex">
-     <number>1</number>
-    </property>
-    <widget class="QWidget" name="page">
-     <widget class="QTextBrowser" name="textBrowser">
-      <property name="geometry">
-       <rect>
-        <x>0</x>
-        <y>0</y>
-        <width>1314</width>
-        <height>926</height>
-       </rect>
-      </property>
-     </widget>
-    </widget>
-    <widget class="QWidget" name="page_2"/>
-   </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>724</y>
-      <width>1314</width>
-      <height>238</height>
-     </rect>
-    </property>
-    <widget class="QTextBrowser" name="textBrowser_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>1314</width>
-       <height>238</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -164,98 +118,6 @@ background-color: #262829;
    <addaction name="action_design"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <widget class="QDockWidget" name="dockWidget_project">
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-     <horstretch>0</horstretch>
-     <verstretch>5</verstretch>
-    </sizepolicy>
-   </property>
-   <attribute name="dockWidgetArea">
-    <number>1</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents">
-    <widget class="QTreeView" name="treeView">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-  </widget>
-  <widget class="QDockWidget" name="dockWidget_openedFile">
-   <property name="sizePolicy">
-    <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-     <horstretch>0</horstretch>
-     <verstretch>2</verstretch>
-    </sizepolicy>
-   </property>
-   <attribute name="dockWidgetArea">
-    <number>1</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents_2">
-    <widget class="QListView" name="listView">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-  </widget>
-  <widget class="QDockWidget" name="dockWidget_element">
-   <property name="minimumSize">
-    <size>
-     <width>73</width>
-     <height>95</height>
-    </size>
-   </property>
-   <attribute name="dockWidgetArea">
-    <number>4</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents_3">
-    <widget class="QTreeView" name="treeView_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-  </widget>
-  <widget class="QDockWidget" name="dockWidget_attribute">
-   <property name="minimumSize">
-    <size>
-     <width>104</width>
-     <height>54</height>
-    </size>
-   </property>
-   <attribute name="dockWidgetArea">
-    <number>2</number>
-   </attribute>
-   <widget class="QWidget" name="dockWidgetContents_4">
-    <widget class="QListView" name="listView_2">
-     <property name="geometry">
-      <rect>
-       <x>0</x>
-       <y>0</y>
-       <width>256</width>
-       <height>192</height>
-      </rect>
-     </property>
-    </widget>
-   </widget>
-  </widget>
   <action name="action_about">
    <property name="text">
     <string>关于</string>
