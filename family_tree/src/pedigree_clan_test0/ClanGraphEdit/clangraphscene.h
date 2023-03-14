@@ -7,7 +7,8 @@ class ClanGraphScene : public QGraphicsScene
 {
     Q_OBJECT
 public:
-    ClanGraphScene();
+    explicit ClanGraphScene(QObject *parent = 0);
+    ~ClanGraphScene();
 };
 
 #endif // CLANGRAPHSCENE_H

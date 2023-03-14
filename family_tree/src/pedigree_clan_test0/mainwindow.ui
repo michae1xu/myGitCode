@@ -22,10 +22,48 @@
   <widget class="QWidget" name="centralWidget">
    <property name="minimumSize">
     <size>
-     <width>1527</width>
-     <height>962</height>
+     <width>0</width>
+     <height>0</height>
     </size>
    </property>
+   <property name="maximumSize">
+    <size>
+     <width>1314</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QStackedWidget" name="stackedWidget">
+       <widget class="QWidget" name="page">
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QTextEdit" name="textEdit_2"/>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="page_2">
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QMdiArea" name="mdiArea"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget" native="true">
+       <layout class="QVBoxLayout" name="verticalLayout_5">
+        <item>
+         <widget class="QTextEdit" name="textEdit_4"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
@@ -118,6 +156,73 @@ background-color: #262829;
    <addaction name="action_design"/>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget_project">
+   <property name="maximumSize">
+    <size>
+     <width>256</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_2">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QTextEdit" name="textEdit_3">
+       <property name="maximumSize">
+        <size>
+         <width>256</width>
+         <height>16777215</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_openfile">
+   <property name="maximumSize">
+    <size>
+     <width>256</width>
+     <height>524287</height>
+    </size>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QTextEdit" name="textEdit"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_element">
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_3">
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <widget class="QListWidget" name="listWidget_element"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_attribute">
+   <attribute name="dockWidgetArea">
+    <number>2</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_4">
+    <layout class="QVBoxLayout" name="verticalLayout_8">
+     <item>
+      <widget class="QTextEdit" name="textEdit_6"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
   <action name="action_about">
    <property name="text">
     <string>关于</string>
@@ -146,6 +251,10 @@ background-color: #262829;
     <string>设计</string>
    </property>
   </action>
+  <zorder>dockWidget_project</zorder>
+  <zorder>dockWidget_openfile</zorder>
+  <zorder>dockWidget_element</zorder>
+  <zorder>dockWidget_attribute</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

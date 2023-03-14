@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -24,12 +24,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
+        fileresolver/cappenv.cpp \
+        fileresolver/cxmlresolver.cpp \
         helpform.cpp \
         main.cpp \
         mainwindow.cpp \
         newpeople.cpp
 
 HEADERS += \
+        fileresolver/cappenv.h \
+        fileresolver/cxmlresolver.h \
         helpform.h \
         mainwindow.h \
         newpeople.h

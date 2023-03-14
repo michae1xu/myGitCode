@@ -1,4 +1,5 @@
 HEADERS += \
+    $$PWD/ClanGraphDef.h \
     $$PWD/baseitem.h \
     $$PWD/clangraphscene.h \
     $$PWD/clangraphview.h

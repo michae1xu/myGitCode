@@ -4,6 +4,9 @@
 #include <QMainWindow>
 #include <QMessageBox>
 #include "helpform.h"
+
+class ClanGraphView;
+
 namespace Ui {
 class MainWindow;
 }
@@ -19,8 +22,12 @@ public:
 private:
     Ui::MainWindow *ui;
 
+    ClanGraphView *m_curClanGraphView = nullptr;
+
+    void initXmlEditorElement();
 private slots:
     void on_action_About_triggered();
+    void on_action_newFile_triggered();
 };
 
 #endif // MAINWINDOW_H

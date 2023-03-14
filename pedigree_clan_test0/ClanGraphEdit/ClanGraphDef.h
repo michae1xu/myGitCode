@@ -1,4 +1,0 @@
-#ifndef CLANGRAPHDEF_H
-#define CLANGRAPHDEF_H
-
-#endif // CLANGRAPHDEF_H
