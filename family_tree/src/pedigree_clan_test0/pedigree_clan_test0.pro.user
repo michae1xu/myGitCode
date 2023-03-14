@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.2, 2023-03-14T17:36:45. -->
+<!-- Written by QtCreator 4.12.2, 2023-03-14T17:39:05. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -308,8 +308,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/myGitCode/pedigree_clan_test0/pedigree_clan_test0.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/myGitCode/pedigree_clan_test0/pedigree_clan_test0.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">pedigree_clan_test02</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/myGitCode/family_tree/src/pedigree_clan_test0/pedigree_clan_test0.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/myGitCode/family_tree/src/pedigree_clan_test0/pedigree_clan_test0.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>

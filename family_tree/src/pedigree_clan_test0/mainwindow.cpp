@@ -36,8 +36,13 @@ void MainWindow::initXmlEditorElement()
         item->setToolTip(str);
         switch (i) {
         case 0:
-            item->setIcon(QIcon(CAppEnv::getImageDirPath() + "/operator/mouse.png"));
+        {
+
+
+            QString ss = CAppEnv::getImageDirPath() + "/operator/mouse.png";
+            item->setIcon(QIcon(CAppEnv::getImageDirPath() + "/operator/mouse.png")) ;
             break;
+        }
         case 1:
             item->setIcon(QIcon(CAppEnv::getImageDirPath() + "/operator/line.png"));
             break;
